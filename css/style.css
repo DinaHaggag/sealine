@@ -1,0 +1,340 @@
+/* global */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* connecth */
+.connecth{
+    display: flex;
+    background-color: black;
+}
+.connecth .container{
+    display: flex;
+    justify-content: space-between;
+}
+.phone ,.location , .mail{
+    display: flex;
+    padding-top: 10px;
+}
+.phone i ,.location i, .mail i{
+    color: orange;
+    padding-right: 7px;
+    padding-top: 3px;
+    font-size: 20px;
+}
+.phone p ,.location p , .mail p{
+    color: white;
+}
+.socialh{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 13px;
+    color: white;
+    padding-left: 130px;
+}
+.socialh i{
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+/* header */
+header{
+    display: flex;
+}
+.navline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    margin-bottom: 10px;
+}
+
+
+/* nav */
+.homenav ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    font-size: 18px;
+    font-weight:500;
+    padding-bottom: 10px;
+}
+.homenav ul li:hover{
+    color: orange;
+    cursor: pointer;
+    border-bottom: solid 3px orange;
+    
+}
+.homenav ul li:first-child{
+    color: orange;
+    cursor: pointer;
+    border-bottom: solid 3px orange;
+    
+}
+.p3 button{
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 15px 30px;
+}
+
+/* form */
+form{
+    width:500px;
+    height: 460px;
+    position: absolute;
+    top: 50%;
+    margin-top: -230px;
+    right:10%;
+    z-index: 1;
+    background-color: rgba(255, 254, 254, 0.85);
+    border-radius: 15px;
+    padding: 40px;
+}
+.form{
+    position: relative;
+}
+form label {
+    opacity: .3;
+}
+#to,#from{
+    background-color: white;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 6px;
+    font-weight: 100;
+    font-size: 18px;
+}
+form button{
+    width: 100%;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 15px;
+}
+.formgrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+form input ,#duration{
+    background-color: white;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+ /* tours */
+ .our-tours{
+    margin-bottom: 100px;
+ }
+.tourhead{
+    display: flex;
+    justify-content: space-between;
+}
+.titleback{
+    font-size: 150px;
+    letter-spacing: 20px;
+    font-weight: bold;
+    color: gray;
+    opacity: .1;
+    position: relative;
+}
+.titlefront{
+    font-size: 35px;
+    position: absolute;
+    top: 790px;
+    left: 160px;
+}
+.tourhead button{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    height: 65px;
+    font-size: 18px;
+    letter-spacing: 4px;
+    padding: 20px;
+    margin-top: 140px;
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+}
+.sp1{
+    font-weight: 400;
+    font-size: 20px;
+}
+.sp2{
+    color: orange;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* services */
+.services{
+    background-color: rgb(237, 235, 235);
+    padding-bottom: 50px;
+}
+.services h2{
+    text-align: center;
+    padding: 50px;
+    letter-spacing: 6px;
+    font-weight: 500;
+}
+.ser div{
+    background-color:rgb(237, 235, 235);
+}
+.ser div .card i{
+    color: orange;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.ser div .card h5{
+    margin-left: 30px;
+    padding-top: 25px;
+    border-bottom: 2px solid rgb(197, 196, 196);
+    margin-right: 30px;
+    padding-bottom: 20px;
+}
+.ser div .card div{
+    margin-left: 10px;
+}
+
+/* last news */
+.lastnews h2{
+    text-align: center;
+    padding: 50px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.btnstyle{
+    border: none;
+    background: orange;
+    color: white;
+    padding: 5px;
+    margin: 20px 0;
+    border-radius: 25px;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+.lastnews .btn-next ,.lastnews .btn-prev{
+    background-color: #dfe1ea;
+    border: none;
+    border-radius: 40px;
+    width: 10px;
+    height: 10px;
+}
+
+/* test */
+.test{
+    background-color:rgb(237, 235, 235) ;
+}
+.test h2{
+    text-align: center;
+    padding: 50px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.testcard{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.testcard img{
+    border: none;
+    border-radius: 50%;
+}
+.testcard .testcquote {
+    width: 75%;
+}
+.testcard .testcquote h3{
+    color: blue;
+    font-size: 20px;
+}
+#carouselExampleControls{
+    margin: 0px 50px;
+}
+.prg{
+    font-size: 20px;
+}
+.prgq{
+    font-size: 14px;
+    color: grey;
+}
+
+/* ad */
+.ad{
+    background-image: url(/images/foreground-03-3200x620.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: orange;
+    width: 100%;
+    height: 250px;
+}
+
+/* buy */
+.buybook{
+    background-color: black;
+    height: 250px;
+}
+.buyflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.buyquote h2{
+    color: orange;
+}
+.buyquote p{
+    color:white
+}
+.buybook button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 20px 50px;
+    border-radius: 40px;
+}
+
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    height: 150px;
+}
+
+.footflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:60px;
+}
+.socialf i{
+    background-color: rgb(61, 60, 60);    
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.copyw{
+    width: 300px;
+    text-align: center;
+    color: gray;
+}
