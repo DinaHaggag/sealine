@@ -1,7 +1,7 @@
 
 /* header */
 header{
-    background-image: url(/images/breadcrumbs-bg.jpg);
+    background-image: url(../images/breadcrumbs-bg.jpg);
     color: white;
 
 }
@@ -23,13 +23,17 @@ header{
     font-size: 18px;
     font-weight:500;
 }
+.homenav ul li a{
+  text-decoration: none;
+  color: white;
+} 
 .homenav ul li:hover{
     color: orange;
     cursor: pointer;
     border-bottom: solid 3px orange;
     
 }
-.homenav ul li:first-child{
+.homenav ul li .active-page{
     color: orange;
     cursor: pointer;
     border-bottom: solid 3px orange;
@@ -121,7 +125,7 @@ form button{
 
 /* ad */
 .ad{
-    background-image: url(/images/foreground-03-3200x620.png);
+    background-image: url(../images/foreground-03-3200x620.png);
     background-size:contain;
     background-repeat: no-repeat;
     background-color: orange;

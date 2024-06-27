@@ -1,6 +1,6 @@
 /* header  */
 header{
-    background-image: url(/images/breadcrumbs-bg.jpg);
+    background-image: url(../images/breadcrumbs-bg.jpg);
     color: white;
 
 }
@@ -22,13 +22,17 @@ header{
     font-size: 18px;
     font-weight:500;
 }
+.homenav ul li a{
+  text-decoration: none;
+  color: white;
+} 
 .homenav ul li:hover{
     color: orange;
     cursor: pointer;
     border-bottom: solid 3px orange;
     
 }
-.homenav ul li:first-child{
+.homenav ul li .active-page{
     color: orange;
     cursor: pointer;
     border-bottom: solid 3px orange;
@@ -68,6 +72,94 @@ header{
     border-radius: 20pc;
 }
 
+/* aboutgrid */
+.aboutgrid{
+    background-color: #f7f7f7;
+    padding: 40px 20px;
+}
+.aboutgtitle{
+    display: flex;
+}
+.aboutgtitle h5{
+    padding: 20px 0;
+}
+.aboutgtitle i{
+    color: orange;
+    font-size: 24px;
+    padding: 20px;
+}
+.aboutgrid p{
+    color: #838386;
+    padding: 0 20px;
+}
+
+/* team  */
+.team h1{
+    text-align: center;
+    padding: 60px;
+}
+
+.teamf{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 10px;
+    text-align: center;
+}
+.teamf .name{
+    color: orange;
+    font-weight: 600;
+    font-size: 18px;
+}
+.teamf .job , .teamf .teamsocial{
+    color: #838386;
+}
+.teamsocial i{
+    padding-left: 20px;
+}
+
+/* agency */
+.agency{
+    background-color: black;
+    color: white;
+}
+.agencytitle{
+    padding: 30px;
+}
+
+
+/* destination */
+.desflex{
+    display: flex;
+    justify-content: space-around;
+}
+.desflex img{
+    width: 380px;
+    height: 380px;
+}
+.destination h1{
+    text-align: center;
+    margin: 20px;
+}
+.descen{
+    color: #838386;
+    margin: 50px 220px;
+    text-align: center;
+}
+.countries p{
+    font-size: 20px;
+    color: orange;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.countries button{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 40px;
+    margin: 50px;
+}
+
 /* order */
 .order p{
     background-color: black;
@@ -83,7 +175,7 @@ header{
 
 /* ad */
 .ad{
-    background-image: url(/images/foreground-03-3200x620.png);
+    background-image: url(../images/foreground-03-3200x620.png);
     background-size:contain;
     background-repeat: no-repeat;
     background-color: orange;

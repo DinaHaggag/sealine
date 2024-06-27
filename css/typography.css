@@ -1,6 +1,6 @@
 /* header */
 header{
-    background-image: url(/images/breadcrumbs-bg.jpg);
+    background-image: url(../images/breadcrumbs-bg.jpg);
     color: white;
 
 }
@@ -28,7 +28,11 @@ header{
     border-bottom: solid 3px orange;
     
 }
-.homenav ul li:first-child{
+.homenav ul li a{
+  text-decoration: none;
+  color: white;
+} 
+.homenav ul li:last-child a{
     color: orange;
     cursor: pointer;
     border-bottom: solid 3px orange;
@@ -139,7 +143,7 @@ header{
 }
 /* ad */
 .ad{
-    background-image: url(/images/foreground-03-3200x620.png);
+    background-image: url(../images/foreground-03-3200x620.png);
     background-size:contain;
     background-repeat: no-repeat;
     background-color: orange;
